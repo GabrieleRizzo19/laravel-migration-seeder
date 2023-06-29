@@ -1,1 +1,3 @@
-<footer class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</footer>
+<footer>
+    <h2>FOOTER</h2>
+</footer>
