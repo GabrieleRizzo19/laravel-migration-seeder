@@ -13,8 +13,8 @@
         @foreach ($trains as $train)
         <div class="card" >
             <div class="card-body">
-            <h5 class="card-title">{{ $train->agency }} {{ $train->departure_station}} -> {{$train->arrival_station}}</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">PARTENZA: {{ $train->departure_time }} <br> ARRIVO: {{ $train->arrival_time }}</h6>
+            <h5 class="card-title">{{ $train->agency }} </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">PARTENZA: {{ $train->departure_station}} {{ $train->departure_time }} <br> ARRIVO: {{$train->arrival_station}} {{ $train->arrival_time }}</h6>
             <p class="card-text"><strong>CODICE TRENO:</strong>  {{ $train->train_code }}</p>
             <p class="card-text"><strong>N° CARROZZE:</strong>  {{ $train->carriages_number }}</p>
             <p class="card-text">
