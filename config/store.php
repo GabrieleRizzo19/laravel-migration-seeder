@@ -15,5 +15,5 @@ return [
             "text" => "Documentation",
         ]
     ],
-    'someOtherData' => [ 42, 37, 73],
+    'someOtherData' => [ 42, 37, 73]
 ];
